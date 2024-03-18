@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>link task</title>
+    <link rel="stylesheet" href="stylee.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>INFOMAX <br>COMPUTER ACADEMY</h1>
+        <nav>
+            <ul>
+                <hr  color="brown">
+                <li><a href="#">HOME || ABOUT US || COURSES || NIELIT ||</a></li> 
+                <hr color="brown">
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div>
+          <img src="pic.png">
+        </div>
+    </section>
+    <article>
+        <div class="content">
+            <h2> Who We Are?</h2>
+                <p>Infomax is Computer Academy which provides high quality computer education at a very high standard at a low cost.</p>
+                <p>ICA's mission is to pool of high quality software professions who will meet the demanding needs of multinational organizations for tomorrow's challenges.  </p>
+            <h2>What We Offer?</h2>
+                <p>
+                    We are committed to provide-technology-based education to all sections of the society, for the overall development of the country through continual improvements of quality<br>
+                    management system to achieve our objectives of promoting younger generation towards prosperity.
+                </p>
+            </div>
+    </article>
+    <footer>
+       <p>Registration start now for Registration<a href="click hear">click hear</a></p> 
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+*{
+   background-color: yellow;
+   background-size: cover;
+   padding-left: 30px;
+}
+h1{
+    color: rgb(131, 6, 6);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:cooper;
+    display:block;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5px;   
+}
+nav{
+    margin-left: -50px;
+    margin-top: -40px; 
+}
+nav ul {
+    list-style-type: none;
+    display: inline;
+}
+nav ul li a{
+   margin-left: -60px;
+}
+img{
+    float: right;
+    width: 250px;
+    height: 350px;
+    background-image: none;
+}
+h2{
+    margin-left: -80px;
+}
+p{
+    margin-left: -80px;
+}
+footer{
+    margin-left: 30px;
+    margin-top: 150px;
+}
+footer p a{
+    padding-left: 5px;
+}
+ 
