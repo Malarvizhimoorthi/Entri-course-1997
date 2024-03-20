@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chessboard</title>
+    <link rel="stylesheet" href="chessboard.css" type="text/css">
+</head>
+<body>
+    
+      <!--first line of chess board-->
+    <div class ="f1 "></div>
+    <div class ="f2 "></div>
+    <div class ="f3 "></div>
+    <div class ="f4 "></div>
+    <div class ="f5 "></div>
+    <div class ="f6 "></div>
+    <div class ="f7 "></div>
+    <div class ="f8 "></div>
+
+      <!--second line of chess board-->
+    <div class ="s1 "></div>
+    <div class ="s2 "></div>
+    <div class ="s3 "></div>
+    <div class ="s4 "></div>
+    <div class ="s5 "></div>
+    <div class ="s6 "></div>
+    <div class ="s7 "></div>
+    <div class ="s8 "></div>
+
+      <!--third line of chess board-->
+    <div class ="t1"></div>
+    <div class ="t2"></div>
+    <div class ="t3"></div>
+    <div class ="t4"></div>
+    <div class ="t5"></div>
+    <div class ="t6"></div>
+    <div class ="t7"></div>
+    <div class ="t8"></div>
+
+      <!--fourth line of chess board-->
+    <div class="fo1"></div>
+    <div class="fo2"></div>
+    <div class="fo3"></div>
+    <div class="fo4"></div>
+    <div class="fo5"></div>
+    <div class="fo6"></div>
+    <div class="fo7"></div>
+    <div class="fo8"></div>
+
+      <!--fifth line of chess board-->
+    <div class="fi1"></div>
+    <div class="fi2"></div>
+    <div class="fi3"></div>
+    <div class="fi4"></div>
+    <div class="fi5"></div>
+    <div class="fi6"></div>
+    <div class="fi7"></div>
+    <div class="fi8"></div>
+
+      <!--sixth line of chess board-->
+    <div class="si1"></div>
+    <div class="si2"></div>
+    <div class="si3"></div>
+    <div class="si4"></div>
+    <div class="si5"></div>
+    <div class="si6"></div>
+    <div class="si7"></div>
+    <div class="si8"></div>
+
+      <!--seventh line of chess board-->
+    <div class="se1"></div>
+    <div class="se2"></div>
+    <div class="se3"></div>
+    <div class="se4"></div>
+    <div class="se5"></div>
+    <div class="se6"></div>
+    <div class="se7"></div>
+    <div class="se8"></div>
+    
+</body>
+</html>
+
+
+
+
+body{
+    height: 710px;
+    width: 875px;
+    border:10px solid black;
+    margin-left: 300px;
+}
+
+
+.f1 {
+    background-color:lightpink;
+    height:90px;
+    width:90px;
+    padding:5px;
+    position: relative;
+    left:5px;
+    top:5px;
+}
+.f2{
+    background-color:rgb(11, 11, 11);
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:fixed;
+    left:414px;
+    top:22px;
+}
+.f3{background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position: absolute;
+    left:520px;
+    top:22px;
+    float:left
+} 
+.f4{background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position: absolute;
+    left:630px;
+    top:22px;
+    float:left
+}    
+
+.f5{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position: absolute;
+    left:740px;
+    top:22px;
+    float:left
+}
+.f6{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position: absolute;
+    left:850px;
+    top:22px;
+    float:left
+} 
+.f7{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position: absolute;
+    left:960px;
+    top:22px;
+    float:left
+}
+.f8{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position: absolute;
+    left:1070px;
+    top:22px;
+    float:left
+}
+
+.s1{
+    background-color: rgb(12, 12, 12);
+    height:90px;
+    width:90px;
+    padding:5px;
+    position: relative;
+    left:5px;
+    top:5px;
+}
+.s2{background-color:lightpink;
+    height:80px;
+    width:85px;
+    padding:10px;
+    position: absolute;
+    left:414px;
+    top:122px;
+    float:left
+}    
+.s3{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:520px;
+    top:122px;
+    float:left
+}
+.s4{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:630px;
+    top:122px;
+    float:left
+}
+.s5{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:740px;
+    top:122px;
+    float:left
+}
+.s6{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:850px;
+    top:122px;
+    float:left
+}
+.s7{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position: absolute;
+    left:960px;
+    top:122px;
+    float:right
+} 
+.s8{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:1070px;
+    top:122px;
+    float:left
+}
+
+.t1{
+    background-color:lightpink;
+    height:90px;
+    width:90px;
+    padding:5px;
+    position: relative;
+    left:5px;
+    top:5px;
+}
+.t2{
+    background-color:black;
+    height:80px;
+    width:86px;
+    padding:10px;
+    position:absolute;
+    left:414px;
+    top:222px;
+    float:left
+}
+.t3{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:520px;
+    top:222px;
+    float:left
+}
+.t4{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:630px;
+    top:222px;
+    float:left
+}
+.t5{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:740px;
+    top:222px;
+    float:left
+}
+.t6{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:850px;
+    top:222px;
+    float:left
+}
+
+.t7{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:960px;
+    top:222px;
+    float:left
+}
+.t8{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:1070px;
+    top:222px;
+    float:left
+}
+
+.fo1{
+    background-color: rgb(12, 12, 12);
+    height:90px;
+    width:90px;
+    padding:5px;
+    position: relative;
+    left:5px;
+    top:5px;
+}
+.fo2{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:414px;
+    top:322px;
+    float:left
+}
+.fo3{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:520px;
+    top:322px;
+    float:left
+}
+.fo4{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:630px;
+    top:322px;
+    float:left
+}
+.fo5{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:740px;
+    top:322px;
+    float:left
+}
+.fo6{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:850px;
+    top:322px;
+    float:left
+}
+.fo7{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:960px;
+    top:322px;
+    float:left
+}
+.fo8{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:1070px;
+    top:322px;
+    float:left
+}
+
+.fi1 {
+    background-color:lightpink;
+    height:90px;
+    width:90px;
+    padding:5px;
+    position: relative;
+    left:5px;
+    top:5px;
+}
+.fi2{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:415px;
+    top:422px;
+    float:left
+}
+.fi3{
+    background-color:lightpink;
+    height:80px;
+    width:88px;
+    padding:10px;
+    position:absolute;
+    left:522px;
+    top:422px;
+    float:left;
+}
+.fi4{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:630px;
+    top:422px;
+    float:left
+}
+.fi5{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:740px;
+    top:422px;
+    float:left
+}
+.fi6{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:850px;
+    top:422px;
+    float:left
+}
+.fi7{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:960px;
+    top:422px;
+    float:left
+}
+.fi8{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:1070px;
+    top:422px;
+    float:left
+}
+
+.si1 {
+    background-color: rgb(12, 12, 12);
+    height:90px;
+    width:90px;
+    padding:5px;
+    position: relative;
+    left:5px;
+    top:5px;
+}
+.si2{
+    background-color:lightpink;
+    height:80px;
+    width:88px;
+    padding:10px;
+    position:absolute;
+    left:415px;
+    top:522px;
+    float:left
+}
+.si3{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:520px;
+    top:522px;
+    float:left
+}
+.si4{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:630px;
+    top:522px;
+    float:left
+}
+.si5{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:740px;
+    top:522px;
+    float:left
+}
+.si6{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:850px;
+    top:522px;
+    float:left
+}
+.si7{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:960px;
+    top:522px;
+    float:left
+}
+.si8{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:1070px;
+    top:522px;
+    float:left
+}
+
+.se1{
+    background-color:lightpink;
+    height:90px;
+    width:90px;
+    padding:5px;
+    position: relative;
+    left:5px;
+    top:5px;
+}
+.se2{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:415px;
+    top:622px;
+    float:left
+}
+.se3{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:520px;
+    top:622px;
+    float:left
+}
+.se4{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:630px;
+    top:622px;
+    float:left
+}
+.se5{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:740px;
+    top:622px;
+    float:left
+}
+.se6{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:850px;
+    top:622px;
+    float:left
+}
+.se7{
+    background-color:lightpink;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:960px;
+    top:622px;
+    float:left
+}
+.se8{
+    background-color:black;
+    height:80px;
+    width:90px;
+    padding:10px;
+    position:absolute;
+    left:1070px;
+    top:622px;
+    float:left
+}
