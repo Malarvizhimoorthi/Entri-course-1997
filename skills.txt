@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="skills.css" type="text/css">
+    <link  href="https://fonts.googleapis.com/css?family=Roboto&display=swap"rel="stylesheet">
+</head>
+<body>
+    <div class="inner">
+      <div class="header">
+        <h1>My Skills</h1>
+      </div>
+      <div class="container">
+        <div class="skill-box">
+            <div class="skill-title">
+                <div class="img">
+                    <img src="HTML 5.png" class="skill-icon">
+                </div>
+                <h3>HTML 5</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et obcaecati corrupti aperiam nisi quas laboriosam dolor eos ducimus, perspiciatis maxime architecto! Veritatis,
+                 repudiandae iste! Quisquam tenetur quaerat aperiam voluptates distinctio.</p>
+        </div>
+        <div class="skill-box">
+            <div class="skill-title">
+                <div class="img">
+                    <img src="CSS.PNG" class="skill-icon">
+                </div>
+                <h3>css 3</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et obcaecati corrupti aperiam nisi quas laboriosam dolor eos ducimus, perspiciatis maxime architecto! Veritatis,
+                 repudiandae iste! Quisquam tenetur quaerat aperiam voluptates distinctio.</p>
+        </div><div class="skill-box">
+            <div class="skill-title">
+                <div class="img">
+                    <img src="JavaScript.png"class="skill-icon">
+                </div>
+                <h3>javascript</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et obcaecati corrupti aperiam nisi quas laboriosam dolor eos ducimus, perspiciatis maxime architecto! Veritatis,
+                 repudiandae iste! Quisquam tenetur quaerat aperiam voluptates distinctio.</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto sans-serif;
+}
+body{
+    background-color: #333;
+}
+.inner{
+    padding-top: 20px;
+}
+.header{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 10px;
+    padding: 10px 30px;
+    font-size: 15px;
+
+}
+.skill-box{
+    padding:10px ;
+    color: #fff;
+    cursor: pointer;
+}
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.skill-title h3{
+    color: #fff;
+    margin: 20px;
+}
+.skill-icon{
+    width: 90px;
+    border-radius: 50%;
+    height: 90px;
+}
