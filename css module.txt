@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="module.css" type="text/css">
+</head>
+<body>
+    <div class="header"> 
+        <h1>Music World</h1>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CATEGORY &darr;</a></li>
+            <li><a href="#">PRODUCTION</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="box1">
+            <h3>&rarr;Latest Album...</h3>
+            <hr>
+            <img src="sardar1.png">
+            <img src="LEO.png">
+            <img src="TD.png">
+            <img src="MK.png">
+            <img src="hp1.png">
+            <img src="Sardar.png">
+            <img src="LEO.png">
+            <img src="TD.png">
+        </div>
+        <div class="box2">
+            <h3>&rarr;Top 10 Songs...</h3>
+            <hr>
+            <img src="TD.png">
+            <img src="sardar1.png">
+            <img src="hp1.png">
+            <img src="LEO.png">
+            <img src="Sardar.png">
+            <img src="MK.png">
+            <img src="TD.png">
+            <img src="hp1.png">
+        </div>
+        <div class="box3">
+            <h3>&rarr;Top 10 Artist...</h3>
+            <hr>
+            <img src="MK.png">
+            <img src="TD.png">
+            <img src="sardar1.png">
+            <img src="hp1.png">
+            <img src="LEO.png">
+            <img src="sardar.png">
+            <img src="TD.png">
+            <img src="hp1.png">
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright © 2023 All Rights Reserved By: Music World &#174;
+        </p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+.header{
+    background-color: #787478;
+    width: 95%;
+    height: 80px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border-style: dotted ;
+    border-color: #d6d0d6;
+}
+h1{
+    color: white;
+    margin-left: 100px;
+    font-weight:bolder;
+    font-stretch:semi-condensed;
+    font-size: 45px;
+    font-family:'Arial Narrow Bold';
+    margin-top: 10px;
+    text-shadow: 2px 2px rgb(87, 154, 179);
+    text-overflow: ellipsis;
+}
+.navbar ul{
+    display:flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20px;
+}
+.navbar ul li{
+    list-style-type: none;
+    background-color:#575357;
+    height: 35px;
+    width: 120px;
+    border-radius: 8px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: #fff ;
+}
+.container{
+    background-color: #787478;      
+    width: 95%;
+    height: 810px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border-style: dotted ;
+    border-color: white;
+}
+.box1{
+    height: 230px;
+    width: 97%;
+    border-radius: 20px;
+    border-style:dashed;
+    border-color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+h3{
+    color:#fff;
+    margin-left: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    margin-bottom: -3px;
+}
+.box2{
+    height: 230px;
+    width: 97%;
+    border-radius: 20px;
+    border-style:dashed;
+    border-color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.box3{
+    height: 230px;
+    width: 97%;
+    border-radius: 20px;
+    border-style:dashed;
+    border-color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+img{
+    height: 150px;
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footer{
+    background-color:#787478;
+    width: 95%;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border-style: dotted ;
+    border-color: white;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+  
